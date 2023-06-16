@@ -9,9 +9,10 @@ function App() {
         <p>Testing ci/cd github actions</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://mate.com"
           target="_blank"
           rel="noopener noreferrer"
+          data-testid="learn-link"
         >
           Learn React
         </a>
