@@ -1,9 +1,9 @@
 on:
   push:
-    branches: -master
+    branches: -main
 
   pull_request:
-    branches: -master
+    branches: -main
 
 jobs:
   # Build Job
@@ -47,5 +47,8 @@ jobs:
 
        - name: Deploy to github pages
          uses: peacerisis/actions-gh-pages@v3
+         with:
+           github_token: ${{secrets.GHPAGES_ACCESS_TOKEN}}
+           publish_dir: ./dist
 
 
