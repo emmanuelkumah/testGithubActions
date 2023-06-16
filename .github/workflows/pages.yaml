@@ -9,10 +9,7 @@ on:
 # Functions
 jobs:
   # Build Job
-  build:
-    # Name of the job
-    name: Build
-    # The OS to run the job on
+    build:
     runs-on: ubuntu-latest
     # Steps
     steps:
