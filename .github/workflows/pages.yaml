@@ -1,4 +1,5 @@
 # Triggers
+name: Node.js CI
 on:
   push:
     branches:
